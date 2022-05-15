@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: 'Poppins', 'Sans-Serif';
+  background-color: #f7f9ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a,h1,h2,h3,h4,h5,h6,p{
+  color: #28293d !important;
 }
+
+a:hover{
+  color: #00b2ff !important;
+}
+
+.search{
+  border-color: #00b2ff;
+  background-color: #f7f9ff;
+  color: #28293d;
+}
+
+.search:hover {
+  background-color: #00b2ff;
+  border-color: #00b2ff;
+  color: #f7f9ff;
+  cursor: pointer;
+}
+
+.search:focus{
+  background-color: #00b2ff;
+  border-color: #00b2ff;
+}
+
+.order{
+  border-color: #28293d;
+  background-color: #28293d;
+  color: #f7f9ff;
+}
+
+.order:hover {
+  background-color: #00b2ff;
+  border-color: #00b2ff;
+  color: #f7f9ff;
+  cursor: pointer;
+}
+
+.order:focus{
+  background-color: #00b2ff;
+  border-color: #00b2ff;
+}
+
+.brand-name{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.brand-name:hover{
+  color:#28293d !important;
+}
+
+.hero-text{
+  padding:5px;
+}
+
+.hero-text h1{
+  font-weight: bold;
+  margin-top:-5px;
+}
+
+.pizza-hero{
+ margin-top:-3rem;
+}
+
+.slogan{
+  background-color: rgba(0, 178, 255, .2);
+  width: 45%;
+  max-width: 50%;
+  height: 30px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.slogan-text{
+  padding-top:3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1rem;
+}
+
+.rowr{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.column-1{
+  flex:1;
+}
+
+.column-2{
+  flex:2;
+}
+
+.blocks{
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row-center{
+  align-items:center;
+}
+
+.small{
+  width:auto;
+max-width: 15rem;
+}
+
+.hero-section{
+
+  margin-bottom:8rem;
+}
+
+.add{
+  background-color: #00b2ff;
+  color: #f7f9ff;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.remove{
+    background-color: #00b2ff;
+    color: #f7f9ff;
+    width: 30px;
+    height: 30px;
+  }
